@@ -1,5 +1,5 @@
-const myHttp = require('https');                                        //adicionado
-const agent = new myHttp.Agent({                                        //adicionado    
+const myHttps = require('https');                                        //adicionado
+const agent = new myHttps.Agent({                                        //adicionado    
     rejectUnauthorized: false
   })
 const rp = require('request-promise');
