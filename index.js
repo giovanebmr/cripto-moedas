@@ -8,12 +8,12 @@ const requestOptions = {
   uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
   qs: {
     'start': '1',
-    'limit': '5000',
+    'limit': '5',                                                     //modificado para 5, anterior: 500
     'convert': 'BRL'
   },
   agent: agent,                                                         //adicionado
   headers: {
-    'X-CMC_PRO_API_KEY': 'c472aa44-8b30-4d81-800d-2c44c81d775d'
+    'X-CMC_PRO_API_KEY': 'SUA API KEY AQUI'
   },
   json: true,
   gzip: true
